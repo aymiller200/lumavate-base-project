@@ -1,0 +1,37 @@
+.nav__modal {
+  position: fixed;
+  display: flex;
+  top: 0;
+  right: 0;
+  flex-direction: row;
+  justify-content: flex-end;
+  pointer-events: none;
+}
+
+.title {
+  font-family: 'Jost', sans-serif;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.favorites {
+  font-size: xx-large;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(80, 127, 163, 0.89);
+  padding: 5px;
+  margin: 20px;
+
+  &:hover {
+    cursor: pointer;
+  }
+}

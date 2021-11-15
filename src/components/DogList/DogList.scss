@@ -1,0 +1,39 @@
+.breed-container__modal {
+  width: 40%;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(80, 127, 163, 0.89);
+  border: 2px solid rgb(103, 160, 82);
+  background: rgb(103, 160, 82);
+  pointer-events: none;
+}
+
+.breed {
+  font-family: 'Jost', sans-serif;
+  letter-spacing: 2px;
+  color: white;
+}
+
+.breed-container {
+  width: 40%;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(80, 127, 163, 0.89);
+  border: 2px solid rgb(103, 160, 82);
+  background: rgb(103, 160, 82);
+
+
+
+  &:hover {
+    cursor: pointer;
+    background: white;
+    border: 2px solid rgb(103, 160, 82);
+    transition-duration: 0.4s;
+
+    .breed {
+      color: rgb(103, 160, 82);
+    }
+  }
+}

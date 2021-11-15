@@ -1,0 +1,11 @@
+.close{
+  position: fixed;
+  display: flex;
+  font-size: x-large;  
+  padding: 10px;
+
+
+  &:hover{
+    cursor: pointer;
+  }
+}
